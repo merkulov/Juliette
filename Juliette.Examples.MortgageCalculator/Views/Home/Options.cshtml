@@ -1,0 +1,39 @@
+﻿@model IEnumerable<Juliette.Examples.MortgageCalculator.Models.Option>
+
+@{
+    ViewBag.Title = "Options";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Options</h2>
+
+<table id="optionsTable">
+    <tr>
+        <th>#</th>
+        <th>Term (in months)</th>
+        <th>Total Payment</th>
+        <th>Monthly Payment</th>
+        <th>Interest</th>
+    </tr>
+
+@foreach (var option in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => option.OrdinalNumber)
+        </td>
+        <td>
+            @Html.DisplayFor(model => option.NumberOfMonths)
+        </td>
+        <td>
+            @Html.DisplayFor(model => option.TotalPayment)
+        </td>
+        <td>
+            @Html.DisplayFor(model => option.MonthlyPayment)
+        </td>
+        <td>
+            @Html.DisplayFor(model => option.Interest)
+        </td>
+    </tr>
+}
+
+</table>
