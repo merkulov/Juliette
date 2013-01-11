@@ -1,0 +1,19 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+@using (Html.BeginForm("Calculate", "Home", FormMethod.Post)) {
+	@Html.ValidationSummary(true)
+
+	<label style="margin-right: 5px" for="propertyCost">Property Cost:</label>@Html.TextBox("propertyCost", 10000m)<br />
+	<label style="margin-right: 5px" for="numberOfMonths">Term (in months):</label>@Html.TextBox("numberOfMonths", 24)<br />
+	<label style="margin-right: 5px" for="downPayment">Down Payment:</label>@Html.TextBox("downPayment", 1000m)<br />
+    <input type="submit" value="Calculate" />
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

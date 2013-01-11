@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Juliette.Core", "Juliette.Core\Juliette.Core.csproj", "{5B10C173-245B-4011-BC16-5F443E3E004C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Juliette.Examples.MortgageCalculator", "Juliette.Examples.MortgageCalculator\Juliette.Examples.MortgageCalculator.csproj", "{796F329D-321B-4F2B-AC0A-EE04F7639000}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{5B10C173-245B-4011-BC16-5F443E3E004C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B10C173-245B-4011-BC16-5F443E3E004C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B10C173-245B-4011-BC16-5F443E3E004C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{796F329D-321B-4F2B-AC0A-EE04F7639000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{796F329D-321B-4F2B-AC0A-EE04F7639000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{796F329D-321B-4F2B-AC0A-EE04F7639000}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{796F329D-321B-4F2B-AC0A-EE04F7639000}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
