@@ -5,6 +5,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Juliette.Core", "Juliette.C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Juliette.Examples.MortgageCalculator", "Juliette.Examples.MortgageCalculator\Juliette.Examples.MortgageCalculator.csproj", "{796F329D-321B-4F2B-AC0A-EE04F7639000}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Juliette.Examples.MortgageCalculator.Fixtures", "Juliette.Examples.MortgageCalculator.Fixtures", "{CAFCCD5C-C589-4B0A-9657-7C56E8E885A7}"
+	ProjectSection(SolutionItems) = preProject
+		Juliette.Examples.MortgageCalculator.Fixtures\LowestInterest.xml = Juliette.Examples.MortgageCalculator.Fixtures\LowestInterest.xml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

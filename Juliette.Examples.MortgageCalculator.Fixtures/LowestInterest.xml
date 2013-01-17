@@ -1,0 +1,32 @@
+<MortgageFixture>
+	<Step1>
+		<Input>
+			<PurchasePrice>200,000</PurchasePrice>
+			<DownPayment>20</DownPayment>
+			<MortgageTerm>30</MortgageTerm>
+			<InterestRate>0.01</InterestRate>
+			<PropertyTax>0</PropertyTax>
+			<PropertyInsurance>0</PropertyInsurance>
+			<FirstPaymentDate>Jan,2012</FirstPaymentDate>
+			<AmortizationPeriod>Year</AmortizationPeriod>
+		</Input>
+		<Output>
+			<TotalMonthlyPayment>13,334.06</TotalMonthlyPayment>
+			<TotalPayment>160,008.67</TotalPayment>
+			<PayOffDate>Dec,2013</PayOffDate>
+		</Output>
+	</Step1>
+	<Step2>
+		<Output>
+			<AmortizationBreakdown>
+				<AmortizationEntry>
+					<Date>2013</Date>
+					<Principal>160,000</Principal>
+					<Interest>8.67</Interest>
+					<TaxAndInsurance>0</TaxAndInsurance>
+					<Balance>0</Balance>
+				</AmortizationEntry>
+			</AmortizationBreakdown>
+		</Output>
+	</Step2>
+</MortgageFixture>
