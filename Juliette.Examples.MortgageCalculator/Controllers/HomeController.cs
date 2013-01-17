@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using System.Collections.Generic;
 using System.Web.Mvc;
 using Juliette.Examples.MortgageCalculator.Models;
 
@@ -29,8 +26,8 @@ namespace Juliette.Examples.MortgageCalculator.Controllers
 			decimal totalPayment = (loanAmount / numberOfMonths) * ((1 + interestMonthlyRate) * numberOfMonths);
 			decimal monthlyPayment = totalPayment / numberOfMonths;
 
-			model.Add(new Option() 
-			{
+			model.Add(new Option
+				{
 				OrdinalNumber = 1,
 				MonthlyPayment = monthlyPayment,
 				NumberOfMonths = numberOfMonths,

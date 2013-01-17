@@ -120,6 +120,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\Juliette\JulietteController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -212,7 +213,8 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\Options.cshtml" />
-    <Content Include="Views\Home\View1.cshtml" />
+    <Content Include="Views\Juliette\Index.cshtml" />
+    <Content Include="Views\Juliette\Status.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
