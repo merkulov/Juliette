@@ -3,6 +3,7 @@ bin
 obj
 Juliette.suo
 _ReSharper.Juliette
+Juliette.v11.suo
 
 # mstest test results
 TestResults
