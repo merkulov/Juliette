@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Juliette.Examples.MortgageC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Juliette.Examples.MortgageCalculator.Tests", "Juliette.Examples.MortgageCalculator.Tests\Juliette.Examples.MortgageCalculator.Tests.csproj", "{E9665449-EC38-4A14-81A2-7949A2CAA73A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{5A755C28-162D-433E-8833-D3EB9713A271}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
