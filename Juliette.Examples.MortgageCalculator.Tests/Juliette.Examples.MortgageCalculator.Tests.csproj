@@ -47,6 +47,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CalculatorStepDefinitions.cs" />
+    <Compile Include="HightesInterestFeature.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HightesInterestFeature.feature</DependentUpon>
+    </Compile>
     <Compile Include="LowestInterest.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -56,6 +61,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="HightesInterestFeature.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>HightesInterestFeature.feature.cs</LastGenOutput>
+    </None>
     <None Include="LowestInterest.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>LowestInterest.feature.cs</LastGenOutput>
